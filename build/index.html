@@ -1,0 +1,81 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Template</title>
+
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+  <h1 class="app-title">Happy drawing!</h1>
+    <canvas id="canvas" class="canvas pen" width="480px"height="300px"data-erase-size></canvas>
+  <div class="wrap">
+
+    <br>
+    <button class="btn" id="js-erase">Erase</button>
+    <select name="erase-size" id="erase-size">
+      <option value="small">Small</option>
+      <option value="medium">Medium</option>
+      <option value="big">Big</option>
+    </select>
+    <button class="btn" id="js-pen">Pen</button>
+    <button class="btn clear" id="js-clear" download>Start Over</button>
+    <br>
+    <a class="btn" id="js-save-image">Download Image</a>
+    <br>
+        <br>
+        <label for="line-width-select">Choose Line Width
+        <select name="line-width-select" id="line-width-select">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7"> 7</option>
+          <option value="8"> 8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="20">20</option>
+          <option value="25">25</option>
+          <option value="30">30</option>
+          <option value="40">40</option>
+          <option value="50">50</option>
+          <option value="70">70</option>
+        </select>
+        px
+        </label>
+        <br>
+        <label for="line-width-input">or custom <input type="number" name="line-width-input" id="line-width-input"> px</label>
+
+        <br>
+        <br>
+<ul class="color-list clearfix" id="js-color-list">
+  <li><button class="text-hide color-list__item color-list--red" value="red">Red</button></li>
+  <li><button class="text-hide color-list__item color-list--green" value="green">Green</button></li>
+  <li><button class="text-hide color-list__item color-list--blue" value="blue">Blue</button></li>
+</ul>
+<br>
+Choose Custom Color: <input class="color" id="js-colors" value="#000000"> <button class="btn" id="js-add-color">Add to your colors</button>
+
+    <script src="main.js"></script>
+
+  </body>
+</html>
+
+</body>
+</html>
