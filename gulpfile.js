@@ -10,7 +10,7 @@ var concat = require('gulp-concat'),
     sass = require('gulp-sass'),
     plumber = require('gulp-plumber'),
     minifyHTML = require('gulp-minify-html'),
-    imagemin = require('gulp-imagemin'),
+    //imagemin = require('gulp-imagemin'),
     changed = require('gulp-changed');
 
 
@@ -63,7 +63,7 @@ gulp.task('imagemin', function() {
 
 // default gulp task
 gulp.task('default', function() {
-  livereload.listen();
+  //livereload.listen();
   gulp.watch('./src/*.html', ['html']);
   gulp.watch('./src/scss/*.scss', ['styles']);
   gulp.watch('./src/js/*.js', ['scripts']);
