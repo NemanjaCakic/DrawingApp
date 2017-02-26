@@ -4,4 +4,4 @@ Simple Drawing App
 
 Link:
 
-http://nemanjac.com/demo/Drawing/
+[http://nemanjacakic.com/drawing-app/](http://nemanjacakic.com/drawing-app/)
